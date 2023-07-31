@@ -1,7 +1,9 @@
 import * as React from "react";
 import { ACState, ACAction, ACActionType } from "../type";
-const acRunningSound = new Audio("/audio/ac-running-sound.mp3");
-const remoteBeepSound = new Audio("/audio/remote-beep-sound.mp3");
+import ac_running_sound from "../assets/audio/ac-running-sound.mp3";
+import remote_beep_sound from "../assets/audio/remote-beep-sound.mp3";
+const acRunningSound = new Audio(ac_running_sound);
+const remoteBeepSound = new Audio(remote_beep_sound);
 enum ACConfig {
   MIN_TEMPERATURE = 17,
   MAX_TEMPERATURE = 30,
