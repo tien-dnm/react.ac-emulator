@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "7LED italic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./font/led_digital_7_italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "7LED";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./font/led_digital_7.ttf") format("truetype");
+}
